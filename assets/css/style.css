@@ -1,0 +1,35 @@
+body {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.background{/* agrega la imagen banner */
+    background: linear-gradient(90deg, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.1)), url("../img/background.jpg");
+    /* fondo total */
+    background-size: cover;
+    /* altura vertical */
+    height: 100vh;
+    /* oculatar el scroll horizontal */
+    overflow: hidden;
+    /* modo de fusion */
+    background-blend-mode: multiply;
+    /* proyecta una sombra difuminada */
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.25);
+    /* posiciona el fondo al centro */
+    background-position: center center;
+    /* otras caracteristicas */
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.background p{
+    color: #ECECEC;
+    font-weight: 500;
+    font-size: 17px;
+   
+}
+
+.special{
+
+    margin-top: 50vh;
+    height: 100vh; 
+}
